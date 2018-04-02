@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+section nav {
+    float: right;
+}
+
+section nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section nav a:hover{
+    background-color: #555;
+}
+
+body section input {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+textarea{
+    width: 100%;
+    border: 0px;
+    padding: 10px 8px;
+    outline: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border: 3px solid grey;
+}
+
+button {
+    background-color: blue;
+    border-radius: 6px;
+    color: white;
+}
